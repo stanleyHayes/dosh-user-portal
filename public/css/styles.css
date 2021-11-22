@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Inter', "Microsoft YaHei UI Light", serif;
+}
+.header_nav {
+    background-color: #1a1a1a;
+}
+
+.header_nav_signup-text {
+    color: #bf965e;
+}
+
+.footer {
+    background-image: url(/assets/images/FooterBG.png), linear-gradient(to right, #303030, #525252);
+}
+
+.header_nav_login-button {
+    background-color: #a9a9a9;
+}
+
+.header_nav_label {
+    background-image: linear-gradient(to right, #303030, #525252);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-origin: border-box;
+}
+
+.footer_link {
+    color: #bf965e;
+}
+
+.overlay {
+    background-color: rgba(10, 10, 10, 0.8);
+    z-index: 100;
+}
+
+.text-link {
+    color: #bf965e;
+}
+
+.otp-button {
+    background-image: linear-gradient(to right, #e7d99f, #bf953c);
+}
+
+.dosh-card {
+    background-color: #a9a9a9;
+}
+
+.dosh-card:hover {
+    background-image: linear-gradient(to right, #e7d99f, #bf953c);
+}
+
+.dosh-card_image{
+    width: 60px;
+    height: 50px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.dosh-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 53vh;
+    width: 100vw;
+}
+
+.background-image{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-position: top;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.background-image-container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100vw;
+}
