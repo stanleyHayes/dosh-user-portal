@@ -14,7 +14,7 @@
     <?php include("./templates/header.php"); ?>
     <div class="dosh-container">
         <div class="background-image-container">
-            <img src="assets/images/BG-Keyboard.jpg" class="background-image" alt="">
+            <img src="assets/images/Registration-BG.jpg" class="background-image" alt="">
         </div>
         <div class="w-30 min-w-lg overlay text-opacity-80 p-8 rounded-md">
             <p class="text-center uppercase font-bold text-lg mb-4 text-white">
