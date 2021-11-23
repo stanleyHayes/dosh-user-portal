@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
           rel="stylesheet">
@@ -11,12 +12,12 @@
 <body>
 <main>
 
-    <?php include("./templates/header.php"); ?>
+<!--    --><?php //include("./templates/header.php"); ?>
     <div class="dosh-container">
         <div class="background-image-container">
             <img src="assets/images/Login-BG.jpg" class="background-image" alt="">
         </div>
-        <div class="w-30 min-w-lg overlay text-opacity-80 p-8 rounded-md">
+        <div class="lg:w-1/3 w-2/3 overlay text-opacity-80 p-4 rounded-xl">
             <p class="text-center uppercase font-bold text-lg mb-4 text-white">
                 Welcome Back!
             </p>
@@ -24,26 +25,26 @@
                 Sign in to your DOSH Insurance Account.
             </p>
 
-            <div class="flex space-x-4 my-3 items-center">
-                <p class="text-center text-sm text-white">Username</p>
-                <label class="flex-1">
-                    <input class="rounded-md min-w-full" type="text">
+            <div class="flex flex-col items-start md:flex-row md:space-x-4 space-y-3 md:space-y-auto my-3 md:items-center text-sm">
+                <p class="text-left md:text-right lg:w-2/6 sm:w-full text-white">Username</p>
+                <label class="md:w-3/4 sm:w-full w-full lg:w-4/6">
+                    <input class="rounded-xl w-full p-1" type="text">
                 </label>
             </div>
 
-            <div class="flex space-x-4 my-3 items-center">
-                <p class="text-center text-sm text-white">Password</p>
-                <label class="flex-1">
-                    <input class="rounded-md min-w-full" type="password">
+            <div class="flex flex-col items-start md:flex-row space-y-2 md:space-x-2 my-3 md:items-center">
+                <p class="text-left md:text-right text-sm text-white w-full md:w-2/6 lg:w-2/6">Password</p>
+                <label class="w-full md:w-4/6 lg:w-4/6">
+                    <input class="rounded-xl w-full p-1" type="password">
                 </label>
             </div>
 
-            <div class="flex space-x-4 my-3 justify-end items-center">
-                <label class="text-white text-xs flex items-center">
+            <div class="flex flex-col items-start md:flex-row space-y-2 md:space-x-4 my-3 md:items-center">
+                <label class="text-left md:text-right text-xs text-white w-full md:w-1/3 lg:w-1/3">
                     <input class="rounded-md" type="checkbox">
                     Remember Me
                 </label>
-                <a href="" class="text-link text-xs">I forgot my password</a>
+                <a href="" class="w-full md:w-2/3 lg:w-2/3 text-link text-xs">I forgot my password</a>
             </div>
 
             <div class="text-center my-3">

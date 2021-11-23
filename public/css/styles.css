@@ -12,6 +12,13 @@
 
 .footer {
     background-image: url(/assets/images/FooterBG.png), linear-gradient(to right, #303030, #525252);
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1024px)  {
+    .footer{
+        background-image: linear-gradient(to right, #303030, #525252);
+    }
 }
 
 .header_nav_login-button {
@@ -65,6 +72,7 @@
     align-items: center;
     min-height: 53vh;
     width: 100vw;
+    flex: 1;
 }
 
 .background-image{
@@ -75,6 +83,7 @@
     object-position: top;
     object-fit: cover;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .background-image-container{
@@ -84,4 +93,10 @@
     left: 0;
     right: 0;
     max-width: 100vw;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
