@@ -12,7 +12,7 @@
 <body>
 <main>
 
-<!--    --><?php //include("./templates/header.php"); ?>
+    <?php include("./templates/header.php"); ?>
     <div class="dosh-container">
         <div class="background-image-container">
             <img src="assets/images/Login-BG.jpg" class="background-image" alt="">
