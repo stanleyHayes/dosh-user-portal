@@ -12,7 +12,7 @@
 <body>
 <main>
 
-    <!--    --><?php //include("./templates/header.php"); ?>
+    <?php include("./templates/header.php"); ?>
     <div class="dosh-container">
         <div class="background-image-container">
             <img src="assets/images/BG-Keyboard.jpg" class="background-image" alt="">
@@ -87,14 +87,14 @@
                         <input type="number" class="rounded-xl w-full p-1">
                     </label>
                 </div>
-                
+
                 <div class="flex flex-col md:items-center md:flex-row md:justify-end space-y-2 md:space-x-4  md:space-y-auto">
                     <div class="w-full md:w-1/3">
                         <button class="otp-button p-1 w-full rounded-2xl  text-xs text-black font-bold">
                             Save as Template
                         </button>
                     </div>
-                    
+
                     <div class="w-full md:w-1/3">
                         <button class="otp-button p-1 w-full rounded-2xl text-xs text-black font-bold">
                             Load Template
@@ -124,7 +124,7 @@
                         </label>
                     </div>
                 </div>
-                
+
                 <div class="text-right my-4">
                     <button class="w-full md:w-1/3 otp-button p-2 rounded-2xl px-8 text-xs text-black font-bold">
                         Continue

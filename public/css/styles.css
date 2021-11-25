@@ -11,6 +11,7 @@
 }
 
 .footer {
+    max-width: 100vw;
     background-image: url(/assets/images/FooterBG.png), linear-gradient(to right, #303030, #525252);
     background-repeat: no-repeat;
 }
@@ -63,6 +64,7 @@
     height: 50px;
     object-fit: contain;
     object-position: center;
+    max-width: 100%;
 }
 
 .dosh-container{
@@ -73,6 +75,7 @@
     min-height: 53vh;
     width: 100vw;
     flex: 1;
+    max-width: 100vw;
 }
 
 .background-image{

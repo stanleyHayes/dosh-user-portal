@@ -17,27 +17,32 @@
         </div>
         <div class="">
             <div class="flex">
-                <div class="mr-2">
+                <div class="mr-2 hidden md:block">
                     <label class="">
                         <input class="focus:outline-none text-white px-2 py-1 header_nav_label rounded-2xl" type="text">
                     </label>
                 </div>
                 <div>
                     <button class="px-2 text-xs text-white py-1 font-bold uppercase header_nav_login-button">
-                        Login
+                        <a href="../login.php">Login</a>
                     </button>
                 </div>
             </div>
-            <div>
+            <div class="hidden md:block">
                 <p class="text-right">
                     <span class="text-white text-xs">Not registered,</span>
                     <span class="header_nav_signup-text text-xs">
-                            <a class="text-xs" href="./../pages/signup.php">Signup</a>
+                            <a class="text-xs" href="./../pages/signup.php">
+                                <a href="../otp-login.php">Signup</a>
+                            </a>
                         </span>
                 </p>
             </div>
         </div>
     </nav>
-    <img alt="" src="./../assets/images/HeaderBottomLine.png">
+    <div>
+
+    </div>
+    <img class="max-w-full" alt="" src="./../assets/images/HeaderBottomLine.png">
 </header>
 

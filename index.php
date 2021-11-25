@@ -20,13 +20,17 @@
         <div class="content-container">
             
         </div>
-        <div class="flex space-x-8 z-50">
-            <div class="dosh-card p-4 flex-1 shadow-xl rounded-md">
+        <div class="flex space-x-8 z-50 flex-wrap">
+            <div class="dosh-card p-4 flex-1 w-full md:w-auto shadow-xl rounded-md">
                 <div class="flex justify-center mb-2">
                     <img class="dosh-card_image" alt="" src="assets/images/LoadAccount.png">
                 </div>
                 <div>
-                    <p class="text-center uppercase text-black text-sm font-bold">Load Account</p>
+                    <p class="text-center uppercase text-black text-sm font-bold">
+                        <a href="./load-account.php">
+                            Load Account
+                        </a>
+                    </p>
                 </div>
             </div>
 
@@ -35,7 +39,11 @@
                     <img class="dosh-card_image" alt="" src="assets/images/SendMoney.png">
                 </div>
                 <div>
-                    <p class="text-center uppercase text-black text-sm font-bold">Send Money</p>
+                    <p class="text-center uppercase text-black text-sm font-bold">
+                        <a href="./transfer-money.php">
+                            Send Money
+                        </a>
+                    </p>
                 </div>
             </div>
 
@@ -44,7 +52,11 @@
                     <img class="dosh-card_image" alt="" src="assets/images/Bulk.png">
                 </div>
                 <div>
-                    <p class="text-center uppercase text-black text-sm font-bold">Bulk Disbursement</p>
+                    <p class="text-center uppercase text-black text-sm font-bold">
+                        <a href="./bulk-disbursement.php">
+                            Bulk Disbursement
+                        </a>
+                    </p>
                 </div>
             </div>
 
@@ -53,7 +65,11 @@
                     <img class="dosh-card_image" alt="" src="assets/images/DoshLoan.png">
                 </div>
                 <div>
-                    <p class="text-center uppercase text-black text-sm font-bold">Dosh Loan</p>
+                    <p class="text-center uppercase text-black text-sm font-bold">
+                        <a href="./dosh-insurance-login.php">
+                            Dosh Loan
+                        </a>
+                    </p>
                 </div>
             </div>
 
@@ -62,7 +78,11 @@
                     <img class="dosh-card_image" alt="" src="assets/images/StandingOrder.png">
                 </div>
                 <div>
-                    <p class="text-center uppercase text-black text-sm font-bold">Standing Order</p>
+                    <p class="text-center uppercase text-black text-sm font-bold">
+                        <a href="./standing-order.php">
+                            Standing Order
+                        </a>
+                    </p>
                 </div>
             </div>
             <div class="dosh-card p-4 flex-1 shadow-xl rounded-md">
@@ -70,7 +90,11 @@
                     <img class="dosh-card_image" alt="" src="assets/images/insurance.png">
                 </div>
                 <div>
-                    <p class="text-center uppercase text-black text-sm font-bold">Insurance</p>
+                    <p class="text-center uppercase text-black text-sm font-bold">
+                        <a href="./dosh-insurance-register.php">
+                            Insurance
+                        </a>
+                    </p>
                 </div>
             </div>
             <div class="dosh-card p-4 flex-1 shadow-xl rounded-md">
@@ -78,7 +102,11 @@
                     <img class="dosh-card_image" alt="" src="assets/images/FinancialServices.png">
                 </div>
                 <div>
-                    <p class="text-center uppercase text-black text-sm font-bold">Financial Services</p>
+                    <p class="text-center uppercase text-black text-sm font-bold">
+                        <a href="./dosh-insurance-register.php">
+                            Financial Services
+                        </a>
+                    </p>
                 </div>
             </div>
         </div>
